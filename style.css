@@ -1,0 +1,129 @@
+
+body{
+	background-image: url(https://image.shutterstock.com/image-photo/yucca-flower-on-white-background-260nw-729996103.jpg);
+	background-size: contain;
+}
+
+.animate__animated animate__swing{
+	animation:swing; /* referring directly to the animation's @keyframe declaration */
+  	animation-duration:2s;
+}
+	
+h1{
+	color: tomato/*#AA4139*/;
+	font-family: "Lucida Calligraphy";
+	text-align: center;
+	border: 1px dashed rgba(255, 170, 170, 1);
+	background-color: rgba(255, 0, 0, 0.2);
+	/*border-width: "3";
+	height: "10";*/
+}
+
+h3{
+	color: purple;
+/*	text-align: left;
+*/}
+
+li{
+	list-style: none;
+	display: inline-block;
+}
+form{
+	float: right;
+}
+button{
+	cursor: pointer;
+}
+a{
+	display: inline-block;
+}
+
+.children, p{
+	padding-left: 100pt;
+	padding-right:200pt;
+	text-align: justify-all;
+	color:rgba(0, 0, 255, 0.9);
+	font-family: Candara; 'Indie Flower', cursive;
+	font-size: 20px;
+	font-height: 120px;
+}
+
+/*p{
+	color:rgba(0, 0, 255, 0.9);
+	font-family: Candara; 'Indie Flower', cursive;
+	font-size: 20px;
+	font-height: 120px;
+}
+*/
+aside {
+ /* width: 30%;*/
+  /*padding-left: 10px;
+  margin-left: 30px;*/
+  text-align: center;
+  clear:both;
+  font-style: italic;
+  background-color: lightgray;
+}
+
+
+hr{
+	width: 100px;
+}
+
+.image{
+	float: right;
+	height: 200px;
+	width: 200px;
+	/*background: no-repeat center center fixed*/
+}
+
+
+.container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+
+}
+
+img{
+	width: 480px;
+	height: 300px;
+	margin: 7px;
+	border: 2px solid rgba(0, 255, 0, 0.1);
+	transition: 1s;
+	border-radius: 10px;
+}
+img:hover{
+	transform: scale(1.1);
+}
+
+h2{
+	font-family: chiller;
+	color: tomato;
+	font-size: 2em ;
+	text-align: center;
+	border-bottom: 2px solid pink;
+	width: 250px;
+	border-right: 2px solid pink;
+	transition: 1s;
+	box-shadow: 5px 5px 10px #888888;
+	margin-bottom: 5px;   /*brings the text&images closer together*/
+}	
+h2:hover{
+	transform: scale(1.1);
+}
+
+.droplet {
+  background: mediumaquamarine;
+  border-radius: 2% 50%;
+  height: 100px;
+  margin: 100px;
+  transition: all 3s;
+  transition-timing: ease-in-out;
+  width: 100px;
+
+  
+  .droplet:hover;
+    transform: rotate(1080deg);
+  }
+}
